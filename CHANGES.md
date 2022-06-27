@@ -1,6 +1,9 @@
 3.4.0 (Unreleased)
 ------------------
 
+- Introduce a `$ dune ocaml top-module` subcommand to load modules directly
+  without sealing them behind the signature. (#5940, @rgrinberg)
+
 - Building the `@check` alias should make sure the libraries and executables
   don't have dependency cycles (#5892, @rgrinberg)
 
